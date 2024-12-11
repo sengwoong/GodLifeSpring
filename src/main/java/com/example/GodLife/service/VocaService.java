@@ -26,7 +26,7 @@ public class VocaService {
     }
 
     public List<Voca> getVocasByUserId(Long userId) {
-        return vocaRepository.findByUserId(userId);
+        return vocaRepository.findByUser_UserId(userId);
     }
 
     public void deleteVoca(Long vocaId) {

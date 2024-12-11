@@ -15,7 +15,7 @@ public class Playlist {
     private Long playlistId;
 
     @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
+    @JoinColumn(name = "user_userId", nullable = false)
     private User user;
 
     private String playListName;

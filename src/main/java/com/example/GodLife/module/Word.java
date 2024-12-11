@@ -12,7 +12,7 @@ public class Word {
     private Long wordId;
 
     @ManyToOne
-    @JoinColumn(name = "voca_id", nullable = false)
+    @JoinColumn(name = "voca_vocaId", nullable = false)
     private Voca voca;
 
     private String word;

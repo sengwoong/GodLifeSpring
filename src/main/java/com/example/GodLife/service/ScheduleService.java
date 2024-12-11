@@ -26,7 +26,7 @@ public class ScheduleService {
     }
 
     public List<Schedule> getSchedulesByUserId(Long userId) {
-        return scheduleRepository.findByUserId(userId);
+        return scheduleRepository.findByUser_UserId(userId);
     }
 
     public void deleteSchedule(Long scheduleId) {

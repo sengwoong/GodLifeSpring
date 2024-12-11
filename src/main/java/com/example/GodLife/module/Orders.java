@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Entity
-public class Order {
+public class Orders {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long orderId;

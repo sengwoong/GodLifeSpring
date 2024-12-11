@@ -26,7 +26,7 @@ public class PlaylistService {
     }
 
     public List<Playlist> getPlaylistsByUserId(Long userId) {
-        return playlistRepository.findByUserId(userId);
+        return playlistRepository.findByUser_UserId(userId);
     }
 
     public void deletePlaylist(Long playlistId) {

@@ -15,7 +15,7 @@ public class Voca {
     private Long vocaId;
 
     @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
+    @JoinColumn(name = "user_userId", nullable = false)
     private User user;
 
     private String name;
