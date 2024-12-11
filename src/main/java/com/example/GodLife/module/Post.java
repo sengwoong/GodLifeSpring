@@ -1,4 +1,4 @@
-package module;
+package com.example.GodLife.module;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
